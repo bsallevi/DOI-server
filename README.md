@@ -177,5 +177,5 @@ Running
 ### 3.3- Connection to the GUI
 
 ```
-firefox http(s)://localhost:<port>/ihm/authenticate.html
+firefox http(s)://localhost:<port>/ihm
 ```
