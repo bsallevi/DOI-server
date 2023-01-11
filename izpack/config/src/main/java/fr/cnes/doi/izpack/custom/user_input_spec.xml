@@ -268,9 +268,9 @@
         <field type="text" variable="project.ldap.search.user">
             <spec txt="Filter expression to get the users:" 
                   set="cn=users,cn=accounts,dc=sis,dc=cnes,dc=fr" 
-                  id="input.ldappanel.search.group" size="25" />
+                  id="input.ldappanel.search.user" size="25" />
             <validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" 
-                       id="input.ldappanel.search.group.validation" txt="Filter expression is a required field" />
+                       id="input.ldappanel.search.user.validation" txt="Filter expression is a required field" />
         </field>   
         <field type="text" variable="project.ldap.attr.username">
             <spec txt="Username attribute in LDAP:" 
